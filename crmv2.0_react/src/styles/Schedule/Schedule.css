@@ -1,0 +1,7 @@
+.Column{
+    display: flex;
+    flex-direction: column;
+}
+.ScheduleTable{
+    width: 100%;
+}

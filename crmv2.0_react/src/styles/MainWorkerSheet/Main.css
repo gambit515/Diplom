@@ -1,0 +1,12 @@
+html, body {
+    background-color: #2B579A;
+    margin: 0;
+    padding: 0
+}
+
+.Main {
+    display: flex;
+}
+.ScheduleTable{
+    width: 100%;
+}

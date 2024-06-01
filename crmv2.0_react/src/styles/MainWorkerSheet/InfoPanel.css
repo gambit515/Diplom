@@ -1,0 +1,76 @@
+.InfoPanel {
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    align-items: center;
+}
+
+.AvatarWithFIO {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AvatarWithFIO img {
+    border-radius: 50%;
+    width: 6vw;
+    height: 6vw;
+    object-fit: cover;
+    border: 0.25vw solid #2B579A;
+}
+
+.FIO {
+    font-size: 1.4vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+    font-family: Arial, Serif;
+}
+
+.MainInfoContainer {
+    margin-top: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    background-color: #9AAAE1;
+    color: #FFFF;
+}
+
+.MainInfoContainer h1 {
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    font-size: 1.25vw;
+    font-family: Arial, Serif, serif;
+    font-weight: normal;
+}
+
+.MainInfoContainerFilling {
+    display: flex;
+    flex-direction: column;
+    background-color: #2B579A;
+    padding-left: 0.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 2vw;
+}
+
+.MainInfoContainerFilling label {
+    font-size: 0.8vw;
+    font-family: Arial, Serif, serif;
+    margin-bottom: 0.5vw;
+}
+
+.MainInfoContainerFilling h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.85vw;
+    font-family: Arial, Serif, serif;
+}

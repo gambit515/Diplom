@@ -1,0 +1,39 @@
+.Header {
+    width: 100%;
+    max-width: 100%;
+    background-color: #9AAAE1;
+    font-size: 1vw;
+    display: flex;
+}
+
+.Header label {
+    align-self: center;
+    margin-left: 0.5vw;
+}
+
+.Header img {
+    padding-top: 0.25vw;
+    margin-left: 0.25vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.TopImages img {
+    margin-left: 0.75vw;
+}
+
+.Profile {
+    margin-left: auto;
+    margin-right: 0.5vw;
+    display: flex;
+}
+
+.Profile img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+.Profile label {
+    align-self: center;
+}

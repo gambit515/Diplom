@@ -1,0 +1,23 @@
+.HotBar {
+    width: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9AAAE1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.HotBar img {
+    padding-top: 0.25vw;
+    width: 1.5vw;
+}
+
+.TasksButton img {
+    padding-top: 0.5vw;
+    width: 1.75vw;
+}
+
+.HomeButton img {
+    width: 1.75vw;
+}

@@ -1,0 +1,17 @@
+/*.comboBoxContainer {
+    margin-bottom: 20px;
+}*/
+
+.comboBoxSelect {
+    width: 100%;
+    padding: 0.25vw;
+    font-size: 1.1vw;
+    border: 0.1vw solid #ccc;
+    margin: 0vw;
+    /*border-radius: 5px;*/
+    background-color: #D9D9D9; /* Задаем фоновый цвет */
+}
+
+.comboBoxOption {
+    font-size: 1vw;
+}

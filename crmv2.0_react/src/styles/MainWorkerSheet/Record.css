@@ -1,0 +1,44 @@
+.Record {
+    margin: 0.25vw 0.5vw 0.25vw 0;
+    background-color: #9AAAE1;
+    font-family: Arial, Serif, serif;
+    text-indent: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+}
+
+.Record h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1vw;
+}
+
+.Record p {
+    margin: 0;
+    font-size: 0.9vw;
+}
+
+.Record a {
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: 1vw;
+    padding: 0.5vw 1.5vw;
+    background-color: #E6E6E6;
+    text-align: center;
+    color: black;
+    text-indent: 0;
+    text-decoration: none;
+}
+
+.Record td {
+
+    text-align: center;
+    font-size: 1.1vw;
+    padding: 0.5vw 0;
+    width: 1vw;
+}
+
+.Record table {
+    border-spacing: 0.3vw;
+}

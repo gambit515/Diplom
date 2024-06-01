@@ -1,0 +1,108 @@
+.filters{
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    width: 96.5vw;
+
+    background-color: #E6E6E6;
+}
+.filters label{
+    background-color: #9AAAE1;
+
+    font-size: 2vw;
+    padding-left: 0.5vw;
+}
+.mainLabel{
+    width: 90vw;
+}
+.filtersBody {
+    display: flex; /* Располагаем элементы внутри контейнера flex */
+}
+
+.column1 {
+    flex: 1; /* Занимаем все доступное пространство в контейнере flex */
+    padding-right: 2vw; /* Добавляем немного отступа справа */
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 {
+    //flex: 1; /* Занимаем все доступное пространство в контейнере flex */
+    flex-direction: row;
+}
+
+.line {
+    display: flex;
+}
+.OptionBoxContainer {
+    width: 17vw;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    border: 0.3vw solid #2B579A; /* Добавляем границу */
+    /*padding: 0.5vw; /* Добавляем отступ вокруг содержимого */
+    background-color: #f0f0f0; /* Задаем цвет фона */
+    display: flex;
+    flex-direction: column;
+}
+.OptionBoxContainer label{
+    font-size: 1.5vw;
+    padding-right: 97%;
+    padding-left: 0.5vw;
+}
+.column2 img{
+    width: 25vw;
+    margin-top: 0.5vw;
+}
+.buttonsRow{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+}
+.buttonsRow button{
+    width: 20vw;
+    height: 2vw;
+    margin-right: 4vw ;
+    margin-left: 0.5vw;
+    font-size: 1.25vw;
+    border: 0.3vw solid #2B579A; /* Задаем цвет рамки */
+    color: #1E1E1E; /* Задаем цвет текста кнопки */
+}
+.buttonSearch{
+    background-color: #9AAAE1; /* Задаем цвет фона */
+}
+.buttonxls{
+    background-color: #2EC615; /* Задаем цвет фона */
+}
+.buttonSbros{
+    background-color: #E6E6E6; /* Задаем цвет фона */
+}
+
+.DateBoxContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #BCBBBB;
+    font-size: 1.2vw;
+}
+
+/*                          DATEBOX                         */
+
+input[type="date"] {
+    width: 100%;
+    padding: 0.25vw;
+    font-size: 1vw;
+    border: 0.1vw solid #ccc;
+    margin: 0vw;
+    /*border-radius: 5px;*/
+    background-color: #D9D9D9;
+}
+/*                          TIMEBOX                         */
+
+input[type="time"] {
+    width: 100%;
+    padding: 0.25vw;
+    font-size: 1vw;
+    border: 0.1vw solid #ccc;
+    margin: 0vw;
+    /*border-radius: 5px;*/
+    background-color: #D9D9D9;
+}

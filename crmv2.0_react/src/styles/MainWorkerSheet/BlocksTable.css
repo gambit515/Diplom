@@ -1,0 +1,69 @@
+.BlocksTable_Filling {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.BlocksTable_Filling a {
+    flex-shrink: 0;
+    width: 0.925vw;
+    margin: 0.125vw;
+    font-size: 1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BlocksTable_Filling a.Blue {
+    background-color: #2B579A;
+    color: #E6E6E6;
+}
+
+.BlocksTable_Filling a.Gray {
+    background-color: #b8a5a5;
+    color: #1E1E1E;
+}
+
+.BlocksTable_Filling a.Orange {
+    background-color: #e2881f;
+    color: #1E1E1E;
+}
+
+.BlocksTable_Filling a.Red {
+    background-color: #cf3131;
+    color: #1E1E1E;
+}
+
+.BlocksTable_Filling a.Yellow {
+    background-color: #e4dc0d;
+    color: #1E1E1E;
+}
+
+.BlocksTable_Filling a.Green {
+    background-color: #2ec515;
+    color: #1E1E1E;
+}
+
+.BlocksTable_Heading {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.125vw;
+}
+
+.BlocksTable_Heading label {
+    width: 9.25vw;
+    font-size: 1vw;
+    margin-left: 0.2vw;
+    padding: 0.5vw 1.5vw;
+    background-color: #E6E6E6;
+    text-align: center;
+    color: black;
+    text-indent: 0;
+    text-decoration: none;
+}
+
+.BlocksTable_Heading label:last-child:not(:only-child) {
+    margin-left: auto;
+    margin-right: 0.3vw;
+}

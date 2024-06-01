@@ -1,0 +1,41 @@
+.Panel {
+    margin-top: 1.3vw;
+    margin-left: 0.25vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #9AAAE1;
+    width: 70vw;
+    overflow: hidden;
+}
+
+.Panel label {
+    padding-top: 0.3vw;
+    padding-left: 2vw;
+    align-self: start;
+    color: black;
+    font-size: 1.75vw;
+    font-family: Arial, Serif, serif;
+    font-weight: normal;
+}
+
+.PanelFilling {
+    text-align: left;
+    border: #2B579A solid 0.5vw;
+    display: grid;
+    grid-template-rows:repeat(2, 1fr);
+    background-color: #2B579A;
+    overflow-y: auto;
+    max-height: 20vw;
+}
+
+.PanelFilling::-webkit-scrollbar {
+    width: 12px; /* Ширина скроллбара */
+}
+
+.PanelFilling::-webkit-scrollbar-thumb {
+    background-color: #9AAAE1; /* Цвет бегунка (ползунка) */
+}
+
+.PanelFilling::-webkit-scrollbar-track {
+    background-color: #2B579A; /* Цвет трека (фона скроллбара) */
+}
